@@ -1,0 +1,38 @@
+<header>
+  <div class="overlay"></div> 
+  <div class="container">
+    <a href="/latata.tejidos/"><img src="{{ `images/logo/logo.png` | relURL }}" /></a>
+<label for="menu-toggle" class="menu-bar">
+  Menu
+  <img src="/latata.tejidos/images/logo/logo-menu.svg" alt="Logo" class="logo-svg">
+</label>
+
+<input type="checkbox" id="menu-toggle" style="display: none;" />
+
+<ul class="menu-menu">
+  <li><a href="/latata.tejidos/">Home</a></li>
+  <li><a href="{{ "proyectos" | relURL }}">Proyectos</a></li>
+  <li><a href="{{ "cursos" | relURL }}">Cursos</a></li>
+  <li><a href="{{ "videos" | relURL }}">Videos</a></li>
+</ul>
+
+    <div class="right-stuff">
+      <div class="header__cart">
+        <a href="#" class="snipcart-checkout">
+          <div class="snipcart-summary">
+            <i class="fas fa-lg fa-shopping-bag"></i>&nbsp;<span
+              class="snipcart-items-count"
+            ></span>
+            item(s)
+          </div>
+        </a>
+      </div>
+      <div class="instagram">
+        <i class="fab fa-lg fa-instagram"></i>&nbsp;<a
+          href="https://instagram.com/{{ .Site.Params.Instagram }}"
+          >Mi Instagram</a
+        >
+      </div>
+    </div>
+  </div>
+</header>

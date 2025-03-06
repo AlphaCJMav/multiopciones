@@ -1,0 +1,40 @@
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 10px;
+}
+
+.video-item {
+    text-align: center;
+    border-radius: 10px; /* Bordes redondeados */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    padding: 5px; /* Espacio para que el glow no recorte la imagen */
+}
+
+.video-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.video-item:hover {
+    transform: scale(1.11);
+    cursor: pointer;
+    background-color: transparent;
+    box-shadow: 5px 5px 55px 25px rgba(255, 228, 225, 0.8); /* Glow MistyRose */
+}
+
+.titulo-video {
+    margin-top: 10px;
+}
+
+  @media (max-width: 449px){
+    .video-item{
+        text-align: none;
+    }
+    .titulo-video{
+        text-align: none;
+        font-size: 30px;
+        margin: 30px;
+    }
+  }

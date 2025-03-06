@@ -1,0 +1,40 @@
+baseUrl= 'https://alphacjmav.github.io/latata.tejidos/'
+languageCode = 'es'
+title = 'Mariana Page'
+theme = "simple-snipcart-shop"
+contentDir = "content/products"
+publishDir = "docs"
+
+[params]
+  instagram = "bordarmarianabranca"
+  header = "Bienvenidos al Mundo de Mariana Crochet!"
+  description = "Donde creamos sueños y Tejidos"
+  products_title = "Nuestros Productos"
+  reviews_title = "Nuestras Reseñas"
+  not_found = "No hay productos de esa categoría."
+
+  categories = [
+    "Para Vos",
+    "Para el Hogar",
+    "Para Amigos"
+  ]
+
+    collage = [
+    "/latata.tejidos/images/collage/1.jpg",
+    "/latata.tejidos/images/collage/2.jpg",
+    "/latata.tejidos/images/collage/3.jpg",
+    "/latata.tejidos/images/collage/4.jpg",
+    "/latata.tejidos/images/collage/5.jpg",
+    "/latata.tejidos/images/collage/6.jpg",
+    "/latata.tejidos/images/collage/7.jpg",
+    "/latata.tejidos/images/collage/8.jpg",
+
+  ]
+
+[author]
+name = "Alpha Maverick"
+
+  # snipcart features will not work without an api key
+  # see https://docs.snipcart.com/v3/dashboard/account-configuration#3-api-keys
+  snipcart_key = ""
+  favicon= "/images/favicon.png"

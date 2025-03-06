@@ -1,0 +1,125 @@
+/* Asegura que la página ocupe todo el espacio */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  transition: filter 0.3s ease; /* Suaviza el cambio de filtro */
+}
+/* Contenedor del menú */
+.menu-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  /* Centra el menú */
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+  display: none;  /* Ocultar el menú por defecto */
+  opacity: 0;     /* También ocultar el menú */
+  transition: opacity 0.3s ease;
+}
+
+/* Hacer visible el menú */
+/* Inicialmente ocultamos el menú */
+.menu-menu {
+  display: none;
+}
+
+#menu-toggle:checked + .menu-menu {
+  display: block; /* Mostrar el menú cuando el checkbox esté marcado */
+}
+
+.menu-container.show {
+  display: block;
+  opacity: 1;
+}
+
+.right-stuff {
+  display: block; /* Mostramos right-stuff por defecto */
+}
+#menu-toggle:checked ~ .right-stuff {
+  display: none; /* Ocultamos right-stuff cuando se abre el menú */
+}
+
+
+/* Estilos del menú */
+.menu ul {
+  display: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul li {
+  margin: 10px 0;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 15px;
+  display: block;
+  padding: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.menu ul li a:hover {
+  background-color: #f0f0f0;
+}
+ul,
+ol {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* Cursor pointer para el menú */
+.menu-bar {
+  cursor: pointer;
+}
+
+header .container {
+  background-color: mistyrose;
+} 
+.collage:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+.menu-bar{
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: bold;
+}
+.menu-bar:hover {
+  transform: scale(1.55);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  color: #04724d;
+  background-color: transparent;
+}
+.logo-svg{
+  width: 70px;
+}
+
+  @media (max-width: 449px) {
+.instagram {
+  font-size: 10px;
+  }
+.fa-lg {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+.menu-bar{
+  padding: 20px;
+}
+strong,
+b,
+a {
+  font-weight: 800;
+  font-size: 20px;
+  }
+}

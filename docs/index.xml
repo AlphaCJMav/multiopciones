@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mariana Page</title>
+    <link>https://alphacjmav.github.io/latata.tejidos/</link>
+    <description>Recent content on Mariana Page</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <atom:link href="https://alphacjmav.github.io/latata.tejidos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://alphacjmav.github.io/latata.tejidos/cat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://alphacjmav.github.io/latata.tejidos/cat/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://alphacjmav.github.io/latata.tejidos/dog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://alphacjmav.github.io/latata.tejidos/dog/</guid>
+      <description>Este es el primer Post</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://alphacjmav.github.io/latata.tejidos/ejemplo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://alphacjmav.github.io/latata.tejidos/ejemplo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://alphacjmav.github.io/latata.tejidos/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://alphacjmav.github.io/latata.tejidos/home/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cursos</title>
+      <link>https://alphacjmav.github.io/latata.tejidos/cursos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://alphacjmav.github.io/latata.tejidos/cursos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Proyectos</title>
+      <link>https://alphacjmav.github.io/latata.tejidos/proyectos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://alphacjmav.github.io/latata.tejidos/proyectos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Videos</title>
+      <link>https://alphacjmav.github.io/latata.tejidos/videos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://alphacjmav.github.io/latata.tejidos/videos/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

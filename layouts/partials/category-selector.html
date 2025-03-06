@@ -1,0 +1,7 @@
+<div class="category-wrapper container">
+  {{ $all := "All" }}
+  {{ range slice $all | append .Site.Params.Categories }}
+    <a class="btn" href="{{ if (eq . $all) }}/latata.tejidos/{{ else }}{{ "/latata.tejidos/categories/" | relURL }}{{ . | urlize }}{{ end }}">{{ . }}</a>
+  {{ end }}
+</div>
+

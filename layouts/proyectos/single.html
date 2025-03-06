@@ -1,0 +1,18 @@
+{{ define "main" }}
+    <h1>Proyectos</h1>
+
+    <div class="projects-grid">
+        {{ range .Site.Data.proyectos.proyectos }}
+            <div class="project-item">
+                <!-- Combinamos baseUrl con el fileId y mostramos la miniatura -->
+                <a href="https://mega.nz/file/{{ .fileId }}#{{ .key }}" target="_blank">
+                    <div class="project-thumbnail">
+                        <!-- Usamos la ruta de la imagen almacenada en 'image-id' -->
+                        <img src="{{ .imageid }}" alt="{{ .title }}">
+                    </div>
+                    <p>{{ .title }}</p>
+                </a>
+            </div>
+        {{ end }}
+    </div>
+{{ end }}

@@ -1,0 +1,17 @@
+base_url = "https://www.youtube.com/watch?v="  # Shortcut de la URL base
+
+[[videos]]
+title = "Bastidor Tejido"
+id = "HwO37XPeE3k"  # Solo el ID del video
+
+[[videos]]
+title = "Bufanda Basica"
+id = "nQ2mEnXUqvk"
+
+[[videos]]
+title = "Punto Calado"
+id = "ukyDC9_04Tg"
+
+[[videos]]
+title = "Tejido en Franjas"
+id = "fpJozg1O6Sc"
