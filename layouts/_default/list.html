@@ -6,10 +6,8 @@
       {{ partial "category-selector" . }}
       <div class="container">
         <div class="products flex-grid">
-          {{ range .Pages.ByDate }}
-          {{ if not (in .Params.categories "menu") }}
-            {{ partial "product.html" .Params }}
-            {{ end }}
+            {{ range .Site.Data.productos.productos  }}
+            {{ partial "product.html" . }} <!-- Pasa el producto completo al partial 'product.html' -->
           {{ end }}
         </div>
       </div>
@@ -20,10 +18,11 @@
       <div class="container">
         <div class="reviews flex-grid">
           {{ range .Site.Data.reviews }}
-            {{partial "review.html" . }}
+            {{ partial "review.html" . }}
           {{ end }}
         </div>
       </div>
     </section>
   </main>
 {{ end }}
+

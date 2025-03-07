@@ -7,6 +7,10 @@ body, html {
   position: relative;
   transition: filter 0.3s ease; /* Suaviza el cambio de filtro */
 }
+header img {
+  background: transparent;
+  width: 225px;
+}
 /* Contenedor del menú */
 .menu-container {
   position: fixed;

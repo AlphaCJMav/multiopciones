@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Mariana Page</title>
-    <link>https://alphacjmav.github.io/latata.tejidos/categories/</link>
-    <description>Recent content in Categories on Mariana Page</description>
+    <title>Categories on MultiOpciones</title>
+    <link>https://alphacjmav.github.io/multiopciones/categories/</link>
+    <description>Recent content in Categories on MultiOpciones</description>
     <generator>Hugo</generator>
     <language>es</language>
-    <atom:link href="https://alphacjmav.github.io/latata.tejidos/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://alphacjmav.github.io/multiopciones/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Menu</title>
-      <link>https://alphacjmav.github.io/latata.tejidos/categories/menu/</link>
+      <link>https://alphacjmav.github.io/multiopciones/categories/menu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://alphacjmav.github.io/latata.tejidos/categories/menu/</guid>
+      <guid>https://alphacjmav.github.io/multiopciones/categories/menu/</guid>
       <description></description>
     </item>
     <item>
       <title>Para Amigos</title>
-      <link>https://alphacjmav.github.io/latata.tejidos/categories/para-amigos/</link>
+      <link>https://alphacjmav.github.io/multiopciones/categories/para-amigos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://alphacjmav.github.io/latata.tejidos/categories/para-amigos/</guid>
+      <guid>https://alphacjmav.github.io/multiopciones/categories/para-amigos/</guid>
       <description></description>
     </item>
     <item>
       <title>Para El Hogar</title>
-      <link>https://alphacjmav.github.io/latata.tejidos/categories/para-el-hogar/</link>
+      <link>https://alphacjmav.github.io/multiopciones/categories/para-el-hogar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://alphacjmav.github.io/latata.tejidos/categories/para-el-hogar/</guid>
+      <guid>https://alphacjmav.github.io/multiopciones/categories/para-el-hogar/</guid>
       <description></description>
     </item>
     <item>
       <title>Para Vos</title>
-      <link>https://alphacjmav.github.io/latata.tejidos/categories/para-vos/</link>
+      <link>https://alphacjmav.github.io/multiopciones/categories/para-vos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://alphacjmav.github.io/latata.tejidos/categories/para-vos/</guid>
+      <guid>https://alphacjmav.github.io/multiopciones/categories/para-vos/</guid>
       <description></description>
     </item>
   </channel>

@@ -1,0 +1,26 @@
+[[productos]]
+id = "prod001"
+name = "Cat"
+price = 20
+image = "/multiopciones/images/products/collage-1.jpg"
+description = "Esta es la Primera Prueba"
+sizes = ["Small", "Medium", "Large"]
+categories = ["Para Vos"]
+
+[[productos]]
+id = "prod002"
+name = "Dog"
+price = 20
+image = "/latata.tejidos/images/products/collage-1.jpg"
+description = "Esta es la Primera Prueba"
+sizes = ["Small", "Medium", "Large"]
+categories = ["Para Vos"]
+
+[[productos]]
+id = "prod003"
+name = "Cat"
+price = 20
+image = "/multiopciones/images/products/collage-1.jpg"
+description = "Esta es la Primera Prueba"
+sizes = ["Small", "Medium", "Large"]
+categories = ["Para Vos"]
