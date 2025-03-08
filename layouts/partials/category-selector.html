@@ -1,7 +1,12 @@
 <div class="category-wrapper container">
   {{ $all := "All" }}
-  {{ range slice $all | append .Site.Params.Categories }}
-    <a class="btn" href="{{ if (eq . $all) }}/latata.tejidos/{{ else }}{{ "/latata.tejidos/categories/" | relURL }}{{ . | urlize }}{{ end }}">{{ . }}</a>
+  {{ range slice $all | append .Site.Params.marca }}
+    {{ $marcaURL := . | lower | urlize }}  <!-- Guarda la URL normalizada -->
+    
+    <!-- Asignar una URL estática por cada marca -->
+    <a class="btn" 
+       href="{{ if eq . $all }}{{ "/multiopciones/" | relURL }}{{ else }}{{ "/multiopciones/" | relURL }}{{ $marcaURL }}{{ end }}">
+      {{ . }}
+    </a>
   {{ end }}
 </div>
-

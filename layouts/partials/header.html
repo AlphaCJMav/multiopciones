@@ -8,19 +8,17 @@
 </label>
 
 <input type="checkbox" id="menu-toggle" style="display: none;" />
-
-<ul class="menu-menu">
-  <li><a href="/multiopciones/">Home</a></li>
-  <li><a href="{{ "proyectos" | relURL }}">Proyectos</a></li>
-  <li><a href="{{ "cursos" | relURL }}">Cursos</a></li>
-  <li><a href="{{ "videos" | relURL }}">Videos</a></li>
-</ul>
-
+      <ul class="menu-menu">
+        <li><a href="/multiopciones/">Home</a></li>
+        <li><a href="{{ "proyectos" | relURL }}">Fragancias</a></li>
+        <li><a href="{{ "libros" | relURL }}">Libros Digitales</a></li>
+        <li><a href="{{ "videos" | relURL }}">Videos</a></li>
+      </ul>
     <div class="right-stuff">
       <div class="header__cart">
         <a href="#" class="snipcart-checkout">
           <div class="snipcart-summary">
-            <i class="fas fa-lg fa-shopping-bag"></i>&nbsp;<span
+            <img src="/multiopciones/images/img/tienda_bag.png" alt="Logo" class="logo-car">&nbsp;<span
               class="snipcart-items-count"
             ></span>
             item(s)
@@ -28,7 +26,7 @@
         </a>
       </div>
       <div class="instagram">
-        <i class="fab fa-lg fa-instagram"></i>&nbsp;<a
+        <img src="/multiopciones/images/img/instagram.png" alt="Logo" class="logo-instagram">&nbsp;<a
           href="https://instagram.com/{{ .Site.Params.Instagram }}"
           >Mi Instagram</a
         >

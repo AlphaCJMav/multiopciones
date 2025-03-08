@@ -10,6 +10,20 @@ body, html {
 header img {
   background: transparent;
   width: 225px;
+  text-align: center;
+}
+.logo-instagram{
+  width: 30px;
+}
+.logo-car{
+  width: 50px;
+}
+.product__image {
+  transition: transform 0.3s ease; /* Para un efecto suave */
+}
+
+.product__image:hover {
+  transform: scale(0.9); /* Achica la imagen al 90% de su tamaño original */
 }
 /* Contenedor del menú */
 .menu-container {
@@ -87,7 +101,7 @@ ol {
 }
 
 header .container {
-  background-color: mistyrose;
+  background: linear-gradient(to right, #be95be, #8c5f8c, #9d4a9b, #be95be);;
 } 
 .collage:hover {
   transform: scale(1.05);

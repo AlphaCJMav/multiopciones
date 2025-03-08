@@ -1,26 +1,59 @@
 [[productos]]
 id = "prod001"
-name = "Cat"
-price = 20
-image = "/multiopciones/images/products/collage-1.jpg"
-description = "Esta es la Primera Prueba"
+name = "300KM"
+marca = "avon"
+price = 20000
+image = "/multiopciones/images/BDImagen/Avon/Perfumes/300km.jpg"
+description = "Perfume Masculino 100ml"
 sizes = ["Small", "Medium", "Large"]
-categories = ["Para Vos"]
+categories = ["el"]
 
 [[productos]]
 id = "prod002"
-name = "Dog"
-price = 20
-image = "/latata.tejidos/images/products/collage-1.jpg"
-description = "Esta es la Primera Prueba"
+name = "Far Away"
+marca = "Avon"
+price = 25000
+image = "/multiopciones/images/BDImagen/Avon/Perfumes/FarAway.jpg"
+description = "Perfume Femenino 50ml"
 sizes = ["Small", "Medium", "Large"]
-categories = ["Para Vos"]
+categories = ["ella"]
 
 [[productos]]
 id = "prod003"
-name = "Cat"
-price = 20
-image = "/multiopciones/images/products/collage-1.jpg"
-description = "Esta es la Primera Prueba"
+name = "Imari"
+marca = "Avon"
+price = 26000
+image = "/multiopciones/images/BDImagen/Avon/Perfumes/imari.jpg"
+description = "Perfume Femenino 50ml"
 sizes = ["Small", "Medium", "Large"]
-categories = ["Para Vos"]
+categories = ["Para-el"]
+
+[[productos]]
+id = "prod004"
+name = "Segno"
+marca = "Avon"
+price = 20000
+image = "/multiopciones/images/BDImagen/Avon/Perfumes/segno.jpg"
+description = "Perfume Maculino 100ml"
+sizes = ["Small", "Medium", "Large"]
+categories = ["Fragancias"]
+
+[[productos]]
+id = "prod004"
+name = "Uomo"
+marca = "Violeta"
+price = 18000
+image = "/multiopciones/images/BDImagen/Amodil/UOMO-INTERNACIONAL.jpg"
+description = "Perfume Maculino 120ml"
+sizes = ["Small", "Medium", "Large"]
+categories = ["Fragancias"]
+
+[[productos]]
+id = "prod005"
+name = "Uomo"
+marca = "Amodil"
+price = 18000
+image = "/multiopciones/images/BDImagen/Amodil/UOMO-INTERNACIONAL.jpg"
+description = "Perfume Maculino 120ml"
+sizes = ["Small", "Medium", "Large"]
+categories = ["Fragancias"]

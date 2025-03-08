@@ -4,11 +4,11 @@ baseUrl = "https://mega.nz/file"
 title = "Proyecto PDF 1"
 fileId = "W753CQRa"
 key = "_77cG4NCjluph1qQ9iOFGncTeihc-Q5O-AA8KhTIlr0"
-imageid = "/latata.tejidos/images/proyectos/enlace1.png"  # Ruta a la miniatura del proyecto
+imageid = "/multiopciones/images/proyectos/enlace1.png"  # Ruta a la miniatura del proyecto
 
 [[proyectos]]
 title = "Proyecto PDF 2"
 fileId = "X234ASDf"
 key = "asd123ABC"
-imageid = "/latata.tejidos/images/proyectos/enlace1.png"  # Ruta a la miniatura del proyecto
+imageid = "/multiopciones/images/proyectos/enlace1.png"  # Ruta a la miniatura del proyecto
 

@@ -4,6 +4,8 @@ title = 'MultiOpciones'
 theme = "simple-snipcart-shop"
 contentDir = "content/products"
 publishDir = "docs"
+[taxonomies]
+  marca = "marcas"
 
 [params]
   instagram = "multiopciones"
@@ -12,11 +14,17 @@ publishDir = "docs"
   products_title = "Nuestros Productos"
   reviews_title = "Nuestras Reseñas"
   not_found = "No hay productos de esa categoría."
-
+  
   categories = [
     "Fragancias",
-    "Para el Hogar",
-    "Para Amigos"
+    "el",
+    "ella"
+  ]
+
+  marca = [
+  "Avon",
+  "Amodil",
+  "Violeta",
   ]
 
     collage = [
