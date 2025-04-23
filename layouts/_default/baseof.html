@@ -71,11 +71,15 @@
     <link rel="stylesheet" type="text/css" href="{{ `css/proyectos.css` | relURL }}" />
     <link rel="stylesheet" type="text/css" href="{{ `css/videos.css` | relURL }}" />
     <link rel="stylesheet" type="text/css" href="{{ `css/style.css` | relURL }}" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
   </head>
   <body>
     {{ partial "header" . }}
     {{ block "main" . }}{{ end }}
     {{ partial "footer" . }}
     <script src="{{ `js/js.js` | relURL }}"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
   </body>
 </html>

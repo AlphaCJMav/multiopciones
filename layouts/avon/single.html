@@ -5,6 +5,7 @@
       <h2>{{ .Site.Params.Products_title }}</h2>
       {{ $currentMarca := .Title }} 
       {{ partial "category-selector" . }}
+      <div class="product grid-item" data-aos="fade-up">
       <div class="container">
         <div class="products flex-grid">
             {{ if .Site.Data.productos }} <!-- Verifica si hay productos disponibles -->
@@ -26,7 +27,7 @@
                           class="snipcart-add-item buy-button"
                           data-item-id="{{ .name | urlize }}"
                           data-item-name="{{ .name }}"
-                          data-item-price="{{ (int .price) | lang.NumFmt 2 }}"
+                          data-item-price="{{ printf "%.2f" .price }}"
                           data-item-url="/"
                           data-item-image="{{ .image }}"
                           data-item-description="{{ .description }}"
@@ -53,6 +54,7 @@
             {{ end }}
         </div>
       </div>
+    </div>
       {{ partial "snipcart.html" . }}
     </section>
     <section>

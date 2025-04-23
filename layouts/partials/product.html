@@ -1,4 +1,4 @@
-<div class="product grid-item">
+<div class="product grid-item aos-item" data-aos="fade-up">
   <img class="product__image" src="{{ .image }}" alt="" />
   <div class="card-content">
     <div class="product__titlebar">
@@ -13,7 +13,7 @@
         class="snipcart-add-item buy-button"
         data-item-id="{{ .name | urlize }}"
         data-item-name="{{ .name }}"
-        data-item-price="{{ (int .price) | lang.NumFmt 2 }}"
+        data-item-price="{{ printf "%.2f" .price }}"
         data-item-url="/"
         data-item-image="{{ .image }}"
         data-item-description="{{ .description }}"
@@ -33,3 +33,4 @@
     </div>
   </div>
 </div>
+

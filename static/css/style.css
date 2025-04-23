@@ -98,6 +98,11 @@ ol {
 /* Cursor pointer para el menú */
 .menu-bar {
   cursor: pointer;
+  color: whitesmoke;
+
+}
+header a{
+  color: whitesmoke;
 }
 
 header .container {
