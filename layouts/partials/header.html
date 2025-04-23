@@ -1,11 +1,23 @@
 <header>
   <div class="overlay"></div> 
   <div class="container">
-    <a class="logo-animado" href="/multiopciones/"><img src="{{ `images/logo/logo-animado.webp` | relURL }}" /></a>
-<label for="menu-toggle" class="menu-bar">
-  Menu
-  <img src="/multiopciones/images/logo/logo.png" alt="Logo" class="logo-svg">
-</label>
+    <a class="logo-animado" href="/multiopciones/">
+<video autoplay loop muted playsinline class="logo-video"
+  disablepictureinpicture
+  disableremoteplayback
+  controlslist="nodownload nofullscreen noremoteplayback"
+  tabindex="-1"
+  aria-hidden="true"
+>
+  <source src="{{ `images/logo/logo-animado.webm` | relURL }}" type="video/webm">
+  Tu navegador no soporta video en formato WebM.
+</video>
+    </a>
+
+    <label for="menu-toggle" class="menu-bar">
+      Menu
+      <img src="/multiopciones/images/logo/logo.png" alt="Logo" class="logo-svg">
+    </label>
 
 <input type="checkbox" id="menu-toggle" style="display: none;" />
       <ul class="menu-menu">

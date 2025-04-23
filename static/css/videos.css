@@ -1,3 +1,13 @@
+.logo-video {
+  height: 80px;
+  width: auto;
+  display: block;
+}
+
+.logo-animado {
+  display: inline-block;
+  vertical-align: middle;
+}
 .video-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -38,3 +48,9 @@
         margin: 30px;
     }
   }
+
+  @media (max-width: 768px) {
+  .logo-video {
+    height: 40px;
+  }
+}

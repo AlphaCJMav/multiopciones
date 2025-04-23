@@ -1,7 +1,7 @@
 [[productos]]
 id = "prod001"
 name = "300KM"
-marca = "avon"
+marca = "Avon"
 price = 20000
 image = "/multiopciones/images/BDImagen/Avon/Perfumes/300km.jpg"
 description = "Perfume Masculino 100ml"
@@ -49,9 +49,9 @@ sizes = ["Small", "Medium", "Large"]
 categories = ["Fragancias"]
 
 [[productos]]
-id = "prod005"
+id = "prod007"
 name = "Uomo"
-marca = "Amodil"
+marca = "Natura"
 price = 18000
 image = "/multiopciones/images/BDImagen/Amodil/UOMO-INTERNACIONAL.jpg"
 description = "Perfume Maculino 120ml"
