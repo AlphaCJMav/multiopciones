@@ -5,8 +5,8 @@ marca = "Avon"
 price = 20000
 image = "/multiopciones/images/BDImagen/Avon/Perfumes/300km.jpg"
 description = "Perfume Masculino 100ml"
-sizes = ["Small", "Medium", "Large"]
-categories = ["el"]
+sizes = [ "Small", "Medium", "Large",]
+categories = [ "el",]
 
 [[productos]]
 id = "prod002"
@@ -15,8 +15,8 @@ marca = "Avon"
 price = 25000
 image = "/multiopciones/images/BDImagen/Avon/Perfumes/FarAway.jpg"
 description = "Perfume Femenino 50ml"
-sizes = ["Small", "Medium", "Large"]
-categories = ["ella"]
+sizes = [ "Small", "Medium", "Large",]
+categories = [ "ella",]
 
 [[productos]]
 id = "prod003"
@@ -25,8 +25,8 @@ marca = "Avon"
 price = 26000
 image = "/multiopciones/images/BDImagen/Avon/Perfumes/imari.jpg"
 description = "Perfume Femenino 50ml"
-sizes = ["Small", "Medium", "Large"]
-categories = ["Para-el"]
+sizes = [ "Small", "Medium", "Large",]
+categories = [ "Para-el",]
 
 [[productos]]
 id = "prod004"
@@ -35,25 +35,57 @@ marca = "Avon"
 price = 20000
 image = "/multiopciones/images/BDImagen/Avon/Perfumes/segno.jpg"
 description = "Perfume Maculino 100ml"
-sizes = ["Small", "Medium", "Large"]
-categories = ["Fragancias"]
-
-[[productos]]
-id = "prod004"
-name = "Uomo"
-marca = "Violeta"
-price = 18000
-image = "/multiopciones/images/BDImagen/Amodil/UOMO-INTERNACIONAL.jpg"
-description = "Perfume Maculino 120ml"
-sizes = ["Small", "Medium", "Large"]
-categories = ["Fragancias"]
+sizes = [ "Small", "Medium", "Large",]
+categories = [ "Fragancias",]
 
 [[productos]]
 id = "prod007"
-name = "Uomo"
+name = "Kaiak"
 marca = "Natura"
-price = 18000
-image = "/multiopciones/images/BDImagen/Amodil/UOMO-INTERNACIONAL.jpg"
-description = "Perfume Maculino 120ml"
-sizes = ["Small", "Medium", "Large"]
-categories = ["Fragancias"]
+price = 50000.0
+image = "/multiopciones/images/BDImagen/Natura/Pefumes/kaiak.jpg"
+image_hover = "/multiopciones/images/BDImagen/Natura/Perfumes/kaiak2.jpg"
+description = "Kaiak Fragancia Masculina"
+sizes = [ "small",]
+categories = [ "Fragancias Masculinas",]
+
+[[productos]]
+id = "prod008"
+name = "Urbano"
+marca = "Natura"
+price = 60000.0
+image = "/multiopciones/images/BDImagen/Natura/Pefumes/urbano.jpg"
+description = "Urbano Fragancia Masculina"
+sizes = [ "small",]
+categories = [ "Fragancia Masculina",]
+
+[[productos]]
+id = "prod009"
+name = "Ilia"
+marca = "Natura"
+price = 60000.0
+image = "/multiopciones/images/BDImagen/Natura/Pefumes/ilia.png"
+description = "Fragancia Femenina"
+sizes = [ "small",]
+categories = [ "Fraganca Femenina",]
+
+[[productos]]
+id = "prod005"
+name = "Kobi"
+marca = "Violeta"
+price = 35000.0
+image = "/multiopciones/images/BDImagen/Violetta /kobi.png"
+description = "Fragancia Infantil"
+sizes = [ "small",]
+categories = [ "Toys",]
+
+[[productos]]
+id = "prod006"
+name = "Cosmo"
+marca = "Violeta"
+price = 35000.0
+image = "/multiopciones/images/BDImagen/Violetta /cosmo.png"
+description = "Fragancia Infantil"
+sizes = [ "samll",]
+categories = [ "Toys",]
+

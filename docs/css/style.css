@@ -128,6 +128,40 @@ header .container {
   width: 70px;
 }
 
+.natura {
+  position: relative;
+  overflow: hidden;
+}
+
+.natura {
+  position: relative;
+  background: none;
+}
+
+.natura::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 600px;
+  height: 600px;
+  transform: translate(-50%, -50%);
+  background-image: url("/multiopciones/images/BDImagen/Natura/fondo/fondo.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: blur(5px) brightness(0.7);
+  opacity: 0.3;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.natura > * {
+  position: relative;
+  z-index: 1;
+}
+
+
+
   @media (max-width: 449px) {
 .instagram {
   font-size: 10px;

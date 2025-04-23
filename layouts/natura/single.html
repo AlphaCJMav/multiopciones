@@ -1,7 +1,7 @@
 {{ define "main" }}
   <main>
     {{ partial "collage.html" . }}
-    <section>
+    <section class="natura">
       <h2>{{ .Site.Params.Products_title }}</h2>
       {{ $currentMarca := .Title }} 
       {{ partial "category-selector" . }}
