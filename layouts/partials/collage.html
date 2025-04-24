@@ -1,9 +1,25 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+  .collage-header {
+    font-family: 'Dancing Script', cursive;
+    font-size: 7rem;
+    text-align: center;
+    margin: 3rem 0;
+  }
+
+  .collage-description {
+    font-family: 'Dancing Script', cursive;
+    font-size: 7rem;
+    margin: 3rem 2rem;
+  }
+</style>
 <section>
   <div class="collage">
     <div class="collage-overlay">
       <div class="collage-overlay-text">
-        <h1>{{ .Site.Params.header }}</h1>
-        <p><strong>{{ .Site.Params.Description }}</strong></p>
+        <h1 class="collage-header">{{ .Site.Params.header }}</h1>
+        <p class="collage-description"><strong>{{ .Site.Params.Description }}</strong></p>
       </div>
     </div>
     {{ range .Site.Params.collage }}

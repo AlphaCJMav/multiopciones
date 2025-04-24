@@ -1,10 +1,28 @@
+<style>
+.btn-ofertas {
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  background-image: url('/multiopciones/images/logo/ofertas.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  text-indent: -9999px; /* Oculta el texto accesiblemente */
+  overflow: hidden;
+  border: none; /* Opcional: para que no herede bordes */
+}
+
+</style>
 <div class="category-wrapper container">
   {{ $all := "All" }}
   {{ range slice $all | append .Site.Params.marca }}
-    {{ $marcaURL := . | lower | urlize }}  <!-- Guarda la URL normalizada -->
-    
-    <!-- Asignar una URL estática por cada marca -->
-    <a class="btn" 
+    {{ $marcaURL := . | lower | urlize }}
+    {{ $extraClass := "" }}
+    {{ if eq . "Ofertas" }}
+      {{ $extraClass = "btn-ofertas" }}
+    {{ end }}
+
+    <a class="btn {{ $extraClass }}" 
        href="{{ if eq . $all }}{{ "/multiopciones/" | relURL }}{{ else }}{{ "/multiopciones/" | relURL }}{{ $marcaURL }}{{ end }}">
       {{ . }}
     </a>

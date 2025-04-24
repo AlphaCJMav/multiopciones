@@ -1,14 +1,32 @@
-<figure class="review grid-item">
-  <img
-    src="{{ .image }}"
-    alt="review image"
-  />
+<style>
+.elegirnos {
+  grid-column: 1 / -1;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  max-width: none !important;
+  max-height: none !important;
+  background-image: url(/multiopciones/images/logo/fondo-elegirnos2.png);
+  background-color: rgba(255, 255, 255, 0.7); /* Blanco semi-transparente */
+}
+.elegirnos img {
+  width: 20%;
+}
+     .elegirnos-texto {
+      font-family: 'Dancing Script';
+      font-size: 1.25rem;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+</style>
+
+<figure class="elegirnos">
+  <img src="{{ .image }}" alt="review image" />
   <figcaption>
     <blockquote>
-      <p>
-        {{ .message }}
-      </p>
+      <p class="elegirnos-texto">{{ .message }}</p>
     </blockquote>
     <h3>{{ .writer }}</h3>
   </figcaption>
 </figure>
+
