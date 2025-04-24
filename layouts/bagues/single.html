@@ -21,7 +21,7 @@
         <div class="products flex-grid">
             {{ if .Site.Data.productos }} <!-- Verifica si hay productos disponibles -->
               {{ range .Site.Data.productos.productos }} <!-- Itera sobre los productos -->
-                <!-- Filtrar solo los productos que tengan "Amodil" en su marca -->
+                <!-- Filtrar solo los productos que tengan "Bagues" en su marca -->
                 {{ if in .marca "Bagues" }}
                   <div class="product grid-item">
                     <img class="product__image" src="{{ .image }}" alt="{{ .name }}" />
