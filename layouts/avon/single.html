@@ -1,4 +1,15 @@
 {{ define "main" }}
+  <style>
+    .reviews-title {
+      font-family: 'Dancing Script', cursive;
+      font-size: 2.5rem;
+      color: #aa336a;
+      text-align: center;
+      margin: 2rem 0;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+  </style>
   <main>
     {{ partial "collage.html" . }}
     <section>
@@ -58,7 +69,7 @@
       {{ partial "snipcart.html" . }}
     </section>
     <section>
-      <h2>{{ .Site.Params.Reviews_title }}</h2>
+      <h2 class="reviews-title">{{ .Site.Params.Reviews_title }}</h2>
       <div class="container">
         <div class="reviews flex-grid">
           {{ range .Site.Data.reviews }}

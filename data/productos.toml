@@ -89,3 +89,32 @@ description = "Fragancia Infantil"
 sizes = [ "samll",]
 categories = [ "Toys",]
 
+[[productos]]
+id = "prod10"
+name = "Kaiak Urbe"
+marca = "Natura"
+price = 85000.0
+image = "/multiopciones/images/BDImagen/Natura/Pefumes/urbe.png"
+description = "Fragancia Masculina"
+sizes = [ "small",]
+categories = [ "Fragancia Masculina",]
+
+[[productos]]
+id = "prod011"
+name = "Homen"
+marca = "Natura"
+price = 95000.0
+image = "/multiopciones/images/BDImagen/Natura/Pefumes/homen.png"
+description = "Fragancia Masculina"
+sizes = [ "small",]
+categories = [ "Fragancias Masculinas",]
+
+[[productos]]
+id = "prod012"
+name = "Moka"
+marca = "Bagues"
+price = 95000.0
+image = "/multiopciones/images/BDImagen/Bagues/moka.png"
+description = "Fragancia Masculina"
+sizes = [ "small",]
+categories = [ "Fragancias Masculinas",]

@@ -12,7 +12,7 @@ publishDir = "docs"
   header = "Multiopciones"
   description = "Las Mejores Marcas Líderes"
   products_title = "Nuestros Productos"
-  reviews_title = "Nuestras Reseñas"
+  reviews_title = "Por qué Multiopciones ®"
   not_found = "No hay productos de esa categoría."
   
   categories = [
@@ -25,12 +25,13 @@ publishDir = "docs"
   "Avon",
   "Natura",
   "Violeta",
+  "Bagues",
   ]
 
     collage = [
     "/multiopciones/images/collage1/1.jpg",
     "/multiopciones/images/collage1/2.jpg",
-    "/multiopciones/images/collage1/3.jpg",
+    "/multiopciones/images/collage1/3.png",
     "/multiopciones/images/collage1/4.jpg",
     "/multiopciones/images/collage1/5.jpg",
     "/multiopciones/images/collage1/6.jpg",

@@ -133,18 +133,13 @@ header .container {
   overflow: hidden;
 }
 
-.natura {
-  position: relative;
-  background: none;
-}
-
 .natura::before {
   content: "";
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
-  width: 600px;
-  height: 600px;
+  width: 1200px;
+  height: 1200px;
   transform: translate(-50%, -50%);
   background-image: url("/multiopciones/images/BDImagen/Natura/fondo/fondo.jpg");
   background-size: cover;
@@ -153,14 +148,11 @@ header .container {
   opacity: 0.3;
   z-index: 0;
   pointer-events: none;
-}
 
 .natura > * {
   position: relative;
   z-index: 1;
 }
-
-
 
   @media (max-width: 449px) {
 .instagram {
