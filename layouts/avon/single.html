@@ -39,25 +39,11 @@
                       <p class="categories">{{ .categories }}</p>
                       <div class="product__button-container">
                         <a
-                          class="snipcart-add-item buy-button"
-                          data-item-id="{{ .name | urlize }}"
-                          data-item-name="{{ .name }}"
-                          data-item-price="{{ printf "%.2f" .price }}"
-                          data-item-url="/"
-                          data-item-image="{{ .image }}"
-                          data-item-description="{{ .description }}"
-                          {{ with .sizes }}
-                            {{ $sizes := delimit . "|" }}
-                            data-item-custom1-name="Choose a size"
-                            data-item-custom1-options="{{ $sizes }}"
-                          {{ end }}
-                          {{ with .colors }}
-                            {{ $colors := delimit . "|" }}
-                            data-item-custom1-name="Choose a color"
-                            data-item-custom1-options="{{ $colors }}"
-                          {{ end }}
+                          class="buy-button"
+                          href="javascript:void(0);"
+                          onclick="contactarProducto('{{ .name }}', '{{.marca}}')"
                         >
-                          Add to cart
+                          Quiero este Producto
                         </a>
                       </div>
                     </div>

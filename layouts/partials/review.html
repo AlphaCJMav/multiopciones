@@ -18,6 +18,35 @@
     }
 
     @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+    /* Media query para pantallas más pequeñas (móviles) */
+  @media (max-width: 768px) {
+    .elegirnos {
+      flex-direction: column; /* Cambiar a columna en pantallas pequeñas */
+      align-items: flex-start;
+      padding: 15px;
+    }
+
+    .elegirnos img {
+      width: 40%; /* La imagen ocupa el 50% del ancho en móviles */
+      margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+    }
+
+    .elegirnos-texto {
+      font-size: 1.1rem; /* Ajustar el tamaño del texto en móviles */
+      text-align: center;
+    }
+
+    h3 {
+      font-size: 1rem; /* Reducir el tamaño del título */
+      text-align: center;
+    }
+  }
+
+  /* Media query para pantallas muy pequeñas (como teléfonos en orientación vertical) */
+  @media (max-width: 480px) {
+    .elegirnos {
+      padding: 10px;
+    }
 </style>
 
 <figure class="elegirnos">

@@ -1,3 +1,66 @@
 <footer>
+        <style>
+    #contacto-modal {
+      font-family: 'Dancing Script';
+      font-size: 2rem; 
+    }         
+        /* Media query para pantallas pequeñas (móviles) */
+        @media (max-width: 600px) {
+          #modal-contacto {
+            top: 3%;
+            padding: 15px;
+            width: 90%;
+          }
+          form input,
+          form textarea,
+          form button {
+            font-size: 14px;
+          }
+          label {
+            font-size: 12px;
+          }
+        }
+      </style>
   <p>&copy; Copyright {{ now.Year }} {{ .Site.Title }}</p>
+
+  <div id="modal-contacto" style="display:none; position:fixed; top:7%; left:50%; transform:translateX(-50%); background:#fff; padding:20px; box-shadow:0 0 20px rgba(0,0,0,0.2); z-index:1000;">
+  <h3 style="margin-bottom: 15px;">Contacto por producto</h3>
+  <form action="https://formsubmit.co/juliabranca2@gmail.com" method="POST">
+    <label id="contacto-modal">Producto:</label>
+    <input type="text" id="producto-nombre" name="producto" readonly style="width:100%; margin-bottom:10px;">
+    <label>Marca:</label>
+    <input type="text" id="producto-marca" readonly style="width:100%; margin-bottom:10px;">
+
+    <label>Tu nombre:</label>
+    <input type="text" name="nombre" required style="width:100%; margin-bottom:10px;">
+
+    <label>Tu correo:</label>
+    <input type="email" name="email" required style="width:100%; margin-bottom:10px;">
+
+    <label>Mensaje:</label>
+    <textarea name="mensaje" style="width:100%; height:80px;"></textarea>
+
+    <div style="margin-top:10px; display: flex; gap: 15px;">
+      <button type="submit">Enviar</button>
+      <button type="button" onclick="cerrarModal()">Cancelar</button>
+      <img src="/multiopciones/images/logo/logo.png" style="width: 40px; margin-left: 50px;">
+    </div>
+    <label>
+      <p style="font-size: 10px;">"Al hacer clic en 'Aceptar', se enviarán los detalles de este producto para su procesamiento."</p>
+    </label>
+  </form>
+</div>
+  
+  <script>
+  function contactarProducto(nombreProducto, marcaProducto) {
+    document.getElementById('producto-nombre').value = nombreProducto;
+    document.getElementById('producto-marca').value = marcaProducto;
+    document.getElementById('modal-contacto').style.display = 'block';
+  }
+
+  function cerrarModal() {
+    document.getElementById('modal-contacto').style.display = 'none';
+  }
+</script>
+
 </footer>
