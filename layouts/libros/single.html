@@ -1,9 +1,40 @@
 {{ define "main" }}
-  <main>
-    <h1>{{ .Title }}</h1>
-    <div>
-   <img src="{{ .Params.banner }}" alt="Banner de libros" class="banner-img">
-      
-    </div>
-  </main>
+<style>
+    .titulo-folleto {
+      margin: 10px;
+      font-family: 'Dancing Script';
+      font-size: 3rem;  
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+  
+  .libros-marcas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.marca img {
+  width: 150px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+.marca img:hover {
+  transform: scale(1.10);
+}
+
+</style>
+<main class="libros container">
+  <h1 class="titulo-folleto">{{ .Title }}</h1>
+
+  <section class="libros-marcas">
+    {{ range .Params.marcas }}
+      <div class="marca">
+        <a href="{{ .link }}" target="_blank">
+          <img src="{{ .banner }}" alt="{{ .nombre }}">
+        </a>
+      </div>
+    {{ end }}
+  </section>
+</main>
 {{ end }}

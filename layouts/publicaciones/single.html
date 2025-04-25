@@ -1,7 +1,7 @@
 {{ define "main" }}
     <h2 class="titulo-video">Videoteca de la Tata.Tejidos</h2>
     <div class="video-grid">
-        {{ range .Site.Data.videos.videos }}  <!-- Accedemos a la lista en TOML -->
+        {{ range .Site.Data.publicaciones.videos }}  <!-- Accedemos a la lista en TOML -->
             <div class="video-item">
               <a href="https://www.youtube.com/watch?v={{ .id }}" target="_blank">
                   <img src="https://img.youtube.com/vi/{{ .id }}/hqdefault.jpg" alt="{{ .title }}">

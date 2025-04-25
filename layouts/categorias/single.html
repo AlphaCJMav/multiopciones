@@ -1,8 +1,8 @@
 {{ define "main" }}
-    <h1>Proyectos</h1>
+    <h1>Categorías</h1>
 
     <div class="projects-grid">
-        {{ range .Site.Data.proyectos.proyectos }}
+        {{ range .Site.Data.categorias.categorias }}
             <div class="project-item">
                 <!-- Combinamos baseUrl con el fileId y mostramos la miniatura -->
                 <a href="https://mega.nz/file/{{ .fileId }}#{{ .key }}" target="_blank">

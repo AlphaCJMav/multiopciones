@@ -15,34 +15,22 @@
     </a>
 
     <label for="menu-toggle" class="menu-bar">
-      Menu
-      <img src="/multiopciones/images/logo/logo.png" alt="Logo" class="logo-svg">
+      Menú
     </label>
 
 <input type="checkbox" id="menu-toggle" style="display: none;" />
       <ul class="menu-menu">
-        <li><a href="/multiopciones/">Home</a></li>
-        <li><a href="{{ "proyectos" | relURL }}">Fragancias</a></li>
-        <li><a href="{{ "libros" | relURL }}">Libros Digitales</a></li>
-        <li><a href="{{ "videos" | relURL }}">Videos</a></li>
-      </ul>
-    <div class="right-stuff">
-      <div class="header__cart">
-        <a href="#" class="snipcart-checkout">
-          <div class="snipcart-summary">
-            <img src="/multiopciones/images/img/tienda_bag.png" alt="Logo" class="logo-car">&nbsp;<span
-              class="snipcart-items-count"
-            ></span>
-            Pedidos
+        <li><a href="{{ "pedidos" | relURL }}">Pedidos</a></li>
+        <li><a href="{{ "categorias" | relURL }}">Categorías</a></li>
+        <li><a href="{{ "libros" | relURL }}">Folletos OnLine</a></li>
+        <li><a href="{{ "publicaciones" | relURL }}">Publicaciones</a></li>
+        <li>
+            <div class="whatsapp">
+          <img src="/multiopciones/images/img/whatsapp.png" alt="Logo" class="logo-whatsapp">&nbsp;<a
+          href="https://wa.me/5493417124621?text=Hola%2C%20quiero%20más%20información" target="_blank">
+          WhatsApp</a>
           </div>
-        </a>
-      </div>
-      <div class="instagram">
-        <img src="/multiopciones/images/img/instagram.png" alt="Logo" class="logo-instagram">&nbsp;<a
-          href="https://instagram.com/{{ .Site.Params.Instagram }}"
-          >Mi Instagram</a
-        >
-      </div>
-    </div>
+        </li>
+      </ul>
   </div>
 </header>

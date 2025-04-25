@@ -1,21 +1,26 @@
 +++
-title = "Libros Digitales"
+title = "Folletos Digitales"
 type = "libros"
 layout = "libros"
 categories = ["menu"]
 
-## Avon
-banner = "/multiopciones/images/logo/logo-mini.png"
-icono_svg = "/images/icons/book.svg"
-# Enlaces externos
-link_descarga = "https://ejemplo.com/descargar-libro"
-link_mas_info = "https://ejemplo.com/mas-informacion"
+[[marcas]]
+nombre = "Avon"
+banner = "/multiopciones/images/marcas/avon.png"
+link = "https://www.avon.com.ar"
 
-## Violeta 
+[[marcas]]
+nombre = "Violeta"
+banner = "/multiopciones/images/marcas/violeta.png"
+link = "https://www.violettacosmeticos.com"
 
-# Enlaces Externos
+[[marcas]]
+nombre = "Natura"
+banner = "/multiopciones/images/marcas/natura.png"
+link = "https://www.naturacosmeticos.com.ar"
 
-## Amodil
-# Enlaces externos
-
+[[marcas]]
+nombre = "Bagues"
+banner = "/multiopciones/images/marcas/bagues.png"
+link = "https://www.bagues.com.ar"
 +++
