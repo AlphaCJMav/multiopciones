@@ -118,3 +118,13 @@ image = "/images/BDImagen/Bagues/moka.png"
 description = "Fragancia Masculina"
 sizes = [ "small",]
 categories = [ "Fragancias Masculinas",]
+
+[[productos]]
+id = "prod001"
+name = "300KM"
+marca = "Ofertas"
+price = 20000
+image = "/images/BDImagen/Avon/Perfumes/300km.jpg"
+description = "Perfume Masculino 100ml"
+sizes = [ "Small", "Medium", "Large",]
+categories = [ "el",]
