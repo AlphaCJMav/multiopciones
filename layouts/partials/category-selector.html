@@ -23,7 +23,7 @@
     {{ end }}
 
     <a class="btn {{ $extraClass }}" 
-       href="{{ if eq . $all }}{{ "/multiopciones/" | relURL }}{{ else }}{{ "/multiopciones/" | relURL }}{{ $marcaURL }}{{ end }}">
+       href="{{ if eq . $all }}{{ "/" | relURL }}{{ else }}{{ "/" | relURL }}{{ $marcaURL }}{{ end }}">
       {{ . }}
     </a>
   {{ end }}
