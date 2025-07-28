@@ -8,9 +8,13 @@
   </url><url>
     <loc>http://localhost:1313/categorias/</loc>
   </url><url>
+    <loc>http://localhost:1313/envios/</loc>
+  </url><url>
     <loc>http://localhost:1313/libros/</loc>
   </url><url>
     <loc>http://localhost:1313/marcas/</loc>
+  </url><url>
+    <loc>http://localhost:1313/modalidad-pago/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
   </url><url>
