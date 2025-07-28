@@ -30,14 +30,14 @@ publishDir = "public"
   ]
 
     collage = [
-    "/multiopciones/images/collage1/1.jpg",
-    "/multiopciones/images/collage1/2.jpg",
-    "/multiopciones/images/collage1/3.png",
-    "/multiopciones/images/collage1/4.jpg",
-    "/multiopciones/images/collage1/5.jpg",
-    "/multiopciones/images/collage1/6.jpg",
-    "/multiopciones/images/collage1/7.jpg",
-    "/multiopciones/images/collage1/8.jpg"
+    "/images/collage1/1.jpg",
+    "/images/collage1/2.jpg",
+    "/images/collage1/3.png",
+    "/images/collage1/4.jpg",
+    "/images/collage1/5.jpg",
+    "/images/collage1/6.jpg",
+    "/images/collage1/7.jpg",
+    "/images/collage1/8.jpg"
   ]
 
 [author]
