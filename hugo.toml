@@ -14,7 +14,6 @@ publishDir = "public"
   products_title = "Nuestros Productos"
   reviews_title = "Por qué Multiopciones ®"
   not_found = "No hay productos de esa categoría."
-  favicon = "favicon.png"
   
   categories = [
     "Fragancias",

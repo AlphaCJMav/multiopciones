@@ -1,0 +1,11 @@
+# Hugo build output
+/public/
+# Si usás "docs" como publishDir
+/docs/
+
+# Caché de temas (opcional)
+themes/**/.cache/
+
+# Archivos de trabajo o notas personales
+AD_SENSE/snippet.txt
+estructura.txt

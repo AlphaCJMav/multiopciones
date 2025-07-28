@@ -16,38 +16,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     {{ "<!--Favicon-->" | safeHTML }}
+      <!-- Icons -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.ico">
 
-    {{ if isset .Site.Params "special_favicon" }}
-      <link
-        rel="apple-touch-icon"
-        sizes="180x180"
-        href="{{ .Site.Params.special_favicon.apple_touch }}"
-      />
-      <link
-        rel="icon"
-        type="image/png"
-        sizes="32x32"
-        href="{{ .Site.Params.special_favicon.fav32 }}"
-      />
-      <link
-        rel="icon"
-        type="image/png"
-        sizes="16x16"
-        href="{{ .Site.Params.special_favicon.fav16 }}"
-      />
-      <link rel="manifest" href="{{ .Site.Params.special_favicon.manifest }}" />
-      <link
-        rel="mask-icon"
-        href="{{ .Site.Params.special_favicon.mask_icon }}"
-        color="{{ .Site.Params.special_favicon.mask_icon_color }}"
-      />
-      <meta
-        name="theme-color"
-        content="{{ .Site.Params.special_favicon.theme_color }}"
-      />
-      {{ else }}
-      <link rel="icon" type="image/png" href="{{ .Site.Params.favicon }}" />
-    {{ end }}
 
     <title>{{ .Site.Title }}</title>
     {{ with .Site.Params.description }}
