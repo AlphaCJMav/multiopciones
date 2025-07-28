@@ -1,9 +1,9 @@
-baseUrl= 'https://alphacjmav.github.io/multiopciones/'
+baseURL = "https://multiopciones.pages.dev/"
 languageCode = 'es'
 title = 'MultiOpciones'
 theme = "simple-snipcart-shop"
 contentDir = "content/products"
-publishDir = "docs"
+publishDir = "public"
 [taxonomies]
   marca = "marcas"
 
@@ -14,6 +14,7 @@ publishDir = "docs"
   products_title = "Nuestros Productos"
   reviews_title = "Por qué Multiopciones ®"
   not_found = "No hay productos de esa categoría."
+  favicon = "favicon.png"
   
   categories = [
     "Fragancias",

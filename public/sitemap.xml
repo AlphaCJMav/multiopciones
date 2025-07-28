@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/avon/</loc>
+  </url><url>
+    <loc>http://localhost:1313/bagues/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categorias/</loc>
+  </url><url>
+    <loc>http://localhost:1313/libros/</loc>
+  </url><url>
+    <loc>http://localhost:1313/marcas/</loc>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+  </url><url>
+    <loc>http://localhost:1313/natura/</loc>
+  </url><url>
+    <loc>http://localhost:1313/ofertas/</loc>
+  </url><url>
+    <loc>http://localhost:1313/pedidos/</loc>
+  </url><url>
+    <loc>http://localhost:1313/publicaciones/</loc>
+  </url><url>
+    <loc>http://localhost:1313/violeta/</loc>
+  </url>
+</urlset>

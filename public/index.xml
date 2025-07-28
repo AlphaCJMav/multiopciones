@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MultiOpciones</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on MultiOpciones</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Avon</title>
+      <link>http://localhost:1313/avon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/avon/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bagues</title>
+      <link>http://localhost:1313/bagues/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bagues/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Categorias</title>
+      <link>http://localhost:1313/categorias/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categorias/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Folletos Digitales</title>
+      <link>http://localhost:1313/libros/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/libros/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Natura</title>
+      <link>http://localhost:1313/natura/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/natura/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ofertas</title>
+      <link>http://localhost:1313/ofertas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ofertas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pedidos</title>
+      <link>http://localhost:1313/pedidos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pedidos/</guid>
+      <description>&lt;p&gt;Aquí podés realizar tu pedido de manera rápida y segura.&lt;br&gt;&#xA;Por favor, consultá los siguientes enlaces si tenés dudas:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Información de folletos&lt;/li&gt;&#xA;&lt;li&gt;Modalidad de pago&lt;/li&gt;&#xA;&lt;li&gt;Envíos a domicilio&lt;/li&gt;&#xA;&lt;li&gt;Formulario de contacto&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Publicaciones</title>
+      <link>http://localhost:1313/publicaciones/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publicaciones/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Violeta</title>
+      <link>http://localhost:1313/violeta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/violeta/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
