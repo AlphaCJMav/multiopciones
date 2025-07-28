@@ -13,7 +13,7 @@ descripcion = "Catálogo de cosmética y cuidado personal"
 [[marcas]]
 nombre = "Reino"
 banner = "/images/marcas/reino.png"
-link = "https://tienda.reino.com.ar"
+link = "https://catalogo.reino.com.ar"
 descripcion = "Productos Naturales"
 
 [[marcas]]
