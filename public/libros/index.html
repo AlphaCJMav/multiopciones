@@ -69,72 +69,93 @@
 
 <input type="checkbox" id="menu-toggle" style="display: none;" />
       <ul class="menu-menu">
-        <li><a href="/pedidos">Pedidos</a></li>
-        <li><a href="/categorias">Categorías</a></li>
-        <li><a href="/libros">Folletos OnLine</a></li>
-        <li><a href="/publicaciones">Publicaciones</a></li>
-        <li>
-            <div class="whatsapp">
-          <img src="/images/img/whatsapp.png" alt="Logo" class="logo-whatsapp">&nbsp;<a
-          href="https://wa.me/5493417124621?text=Hola%2C%20quiero%20más%20información" target="_blank">
-          WhatsApp</a>
-          </div>
-        </li>
+        <li><a href="/pedidos">🛒 Pedidos</a></li>
+        <li><a href="/categorias">📂 Categorías</a></li>
+        <li><a href="/libros">📚 Folletos OnLine</a></li>
+        <li><a href="/publicaciones">📰 Publicaciones</a></li>
+        <li><a href="/deco">🏡 Deco & Home</a></li>
       </ul>
   </div>
 </header>
 
     
 <style>
-    .titulo-folleto {
-      margin: 10px;
-      font-family: 'Dancing Script';
-      font-size: 3rem;  
-    }
-    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
-  
-  .libros-marcas {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  justify-content: center;
-  margin-top: 2rem;
-}
-.marca img {
-  width: 150px;
-  height: auto;
-  transition: transform 0.3s ease;
-}
-.marca img:hover {
-  transform: scale(1.10);
-}
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
+  .titulo-folleto {
+    margin: 20px auto;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+  }
+
+  .libros-marcas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .marca {
+    width: 180px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 5px rgba(0,0,0,0.05);
+  }
+
+  .marca:hover {
+    border: 2px solid #d08ecb;  
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transform: scale(1.05);
+    background-color: #fff;
+  }
+
+  .marca img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    max-height: 100px;
+    object-fit: contain;
+}
 </style>
+
 <main class="libros container">
   <h1 class="titulo-folleto">Folletos Digitales</h1>
 
   <section class="libros-marcas">
     
       <div class="marca">
-        <a href="https://www.avon.com.ar" target="_blank">
+        <a href="https://www.avon.com.ar" target="_blank" title="Catálogo de cosmética y cuidado personal">
           <img src="/images/marcas/avon.png" alt="Avon">
         </a>
       </div>
     
       <div class="marca">
-        <a href="https://www.violettacosmeticos.com" target="_blank">
+        <a href="https://tienda.reino.com.ar" target="_blank" title="Productos Naturales">
+          <img src="/images/marcas/reino.png" alt="Reino">
+        </a>
+      </div>
+    
+      <div class="marca">
+        <a href="https://www.violettacosmeticos.com" target="_blank" title="Catálogo de Cosmética y Línea Hogar">
           <img src="/images/marcas/violeta.png" alt="Violeta">
         </a>
       </div>
     
       <div class="marca">
-        <a href="https://www.naturacosmeticos.com.ar" target="_blank">
+        <a href="https://www.naturacosmeticos.com.ar" target="_blank" title="Catálogo de cosmética y cuidado personal">
           <img src="/images/marcas/natura.png" alt="Natura">
         </a>
       </div>
     
       <div class="marca">
-        <a href="https://www.bagues.com.ar" target="_blank">
+        <a href="https://www.bagues.com.ar" target="_blank" title="Catálogo de cosmética y cuidado personal">
           <img src="/images/marcas/bagues.png" alt="Bagues">
         </a>
       </div>

@@ -29,6 +29,13 @@
       <description></description>
     </item>
     <item>
+      <title>Deco &amp; Home</title>
+      <link>http://localhost:1313/deco/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/deco/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Envios</title>
       <link>http://localhost:1313/envios/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

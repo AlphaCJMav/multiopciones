@@ -69,17 +69,11 @@
 
 <input type="checkbox" id="menu-toggle" style="display: none;" />
       <ul class="menu-menu">
-        <li><a href="/pedidos">Pedidos</a></li>
-        <li><a href="/categorias">Categorías</a></li>
-        <li><a href="/libros">Folletos OnLine</a></li>
-        <li><a href="/publicaciones">Publicaciones</a></li>
-        <li>
-            <div class="whatsapp">
-          <img src="/images/img/whatsapp.png" alt="Logo" class="logo-whatsapp">&nbsp;<a
-          href="https://wa.me/5493417124621?text=Hola%2C%20quiero%20más%20información" target="_blank">
-          WhatsApp</a>
-          </div>
-        </li>
+        <li><a href="/pedidos">🛒 Pedidos</a></li>
+        <li><a href="/categorias">📂 Categorías</a></li>
+        <li><a href="/libros">📚 Folletos OnLine</a></li>
+        <li><a href="/publicaciones">📰 Publicaciones</a></li>
+        <li><a href="/deco">🏡 Deco & Home</a></li>
       </ul>
   </div>
 </header>
@@ -123,18 +117,66 @@
 
     .modal-content ul li {
       margin: 1rem 0;
+      transition: all 0.3s ease;
+      border-radius: 8px;
     }
 
     .modal-content a {
+      display: inline-block;
+      padding: 0.5rem 1rem;
       text-decoration: none;
       color: #007BFF;
       font-weight: bold;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+    }
+
+    .modal-content ul li:hover {
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      transform: scale(1.05);
+      background: #f9f9f9;
     }
 
     .modal-content a:hover {
-      text-decoration: underline;
+      text-decoration: none;
     }
+  
+    .menu-util ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-util ul li {
+  margin: 0.5rem 0;
+}
+
+.menu-util ul li a {
+  display: block;  
+  width: 100%;     
+  padding: 0.75rem 1rem;
+  text-align: center;
+  border-radius: 8px;
+  color: #007BFF;
+  font-weight: bold;
+  text-decoration: none;  
+  background-color: #fff;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+
+.menu-util ul li a:hover {
+  background-color: #f0f8ff;
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  text-decoration: none;  
+}
+
+
+
+    
   </style>
+
 <main class="pedido-content container">
 
   <article>
@@ -154,33 +196,49 @@ Por favor, consultá los siguientes enlaces si tenés dudas:</p>
 
   <section class="links-utiles">
     <h2>Información útil</h2>
-    <ul>
-      <li><a href="/libros">📚 Ver folletos</a></li>
-      <li><a href="/modalidad-pago">💳 Modalidad de pago</a></li>
-      <li><a href="/envios">🚚 Envíos</a></li>
-      <li><a href="#" onclick="abrirModalContacto(); return false;">📞 Contacto</a></li>
-    </ul>
+    <div class="menu-util">
+      <ul>
+        <li><a href="/libros">📚 Ver folletos</a></li>
+        <li><a href="/modalidad-pago">💳 Modalidad de pago</a></li>
+        <li><a href="/envios">🚚 Envíos</a></li>
+        <li><a href="#" onclick="abrirModalContacto(); return false;">📞 Contacto</a></li>
+      </ul>
+    </div>
   </section>
 
   <div id="modal-contacto" class="modal">
     <div class="modal-content">
       <span class="close" onclick="cerrarModalContacto()">&times;</span>
       <h2>Contacto</h2>
+
       <video autoplay loop muted playsinline class="logo-video"
-  disablepictureinpicture
-  disableremoteplayback
-  controlslist="nodownload nofullscreen noremoteplayback"
-  tabindex="-1"
-  aria-hidden="true" style="margin: 0 auto;" 
->
-  <source src="/images/logo/logo-animado.webm" type="video/webm">
-  Tu navegador no soporta video en formato WebM.
-</video>
+        disablepictureinpicture
+        disableremoteplayback
+        controlslist="nodownload nofullscreen noremoteplayback"
+        tabindex="-1"
+        aria-hidden="true"
+        style="margin: 0 auto; width: 100%; max-width: 250px; display: block;">
+        <source src="/images/logo/logo-animado.webm" type="video/webm">
+        Tu navegador no soporta video en formato WebM.
+      </video>
+
       <p>Elegí cómo querés comunicarte:</p>
       <ul>
-        <li><a href="https://wa.me/5493417124621" target="_blank">WhatsApp</a></li>
-        <li><a href="mailto:ventas@multiopciones.com">Correo electrónico</a></li>
-        <li><a href="/multiopciones/formulario-contacto.html">Formulario de contacto</a></li>
+        <li>
+          <a href="https://wa.me/5493417124621?text=Hola%2C%20quiero%20más%20información" target="_blank">
+            WhatsApp
+          </a>
+        </li>
+        <li>
+          <a href="mailto:ventas@multiopciones.com">
+            Correo electrónico
+          </a>
+        </li>
+        <li>
+          <a href="/multiopciones/formulario-contacto.html">
+            Formulario de contacto
+          </a>
+        </li>
       </ul>
     </div>
   </div>

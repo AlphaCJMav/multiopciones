@@ -8,6 +8,8 @@
   </url><url>
     <loc>http://localhost:1313/categorias/</loc>
   </url><url>
+    <loc>http://localhost:1313/deco/</loc>
+  </url><url>
     <loc>http://localhost:1313/envios/</loc>
   </url><url>
     <loc>http://localhost:1313/libros/</loc>
