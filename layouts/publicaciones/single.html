@@ -1,5 +1,9 @@
 {{ define "main" }}
-    <h2 class="titulo-video">Videoteca de la Tata.Tejidos</h2>
+    <div class="titulo-youtube">
+        <h2 class="titulo-video">Nuestro Canal de Youtube</h2>
+        <img src="/images/img/youtube.png" alt="youtube" style="width: 60px; height: auto;">
+    </div>
+    
     <div class="video-grid">
         {{ range .Site.Data.publicaciones.videos }}  <!-- Accedemos a la lista en TOML -->
             <div class="video-item">
