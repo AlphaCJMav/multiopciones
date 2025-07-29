@@ -254,6 +254,7 @@
       </style>
   <p>&copy; Copyright 2025 MultiOpciones</p>
 
+
   <div id="modal-contacto" style="display:none; position:fixed; top:7%; left:50%; transform:translateX(-50%); background:#fff; padding:20px; box-shadow:0 0 20px rgba(0,0,0,0.2); z-index:1000;">
   <h3 style="margin-bottom: 15px;">Contacto por producto</h3>
   <form action="https://formsubmit.co/juliabranca2@gmail.com" method="POST">
@@ -265,6 +266,10 @@
     <label>Tu nombre:</label>
     <input type="text" name="nombre" required style="width:100%; margin-bottom:10px;">
 
+    <label>Tu celular:</label>
+    <input type="tel" name="celular" style="width:100%; margin-bottom:10px;" placeholder="Opcional">
+
+
     <label>Tu correo:</label>
     <input type="email" name="email" required style="width:100%; margin-bottom:10px;">
 
@@ -274,14 +279,39 @@
     <div style="margin-top:10px; display: flex; gap: 15px;">
       <button type="submit">Enviar</button>
       <button type="button" onclick="cerrarModal()">Cancelar</button>
-      <img src="/multiopciones/images/logo/logo.png" style="width: 40px; margin-left: 50px;">
+      <img src="/images/logo/logo.png" style="width: 40px; margin-left: 50px;">
     </div>
     <label>
       <p style="font-size: 10px;">"Al hacer clic en 'Aceptar', se enviarán los detalles de este producto para su procesamiento."</p>
     </label>
   </form>
 </div>
-  
+
+
+
+<div id="modal-cliente" style="display:none; position:fixed; top:10%; left:50%; transform:translateX(-50%); background:#fff; padding:20px; box-shadow:0 0 20px rgba(0,0,0,0.2); z-index:1000;">
+  <h3 style="margin-bottom: 15px;">Contacto del cliente</h3>
+  <form action="https://formsubmit.co/juliabranca2@gmail.com" method="POST">
+    <label>Tu nombre:</label>
+    <input type="text" name="nombre" required style="width:100%; margin-bottom:10px;">
+
+    <label>Tu correo:</label>
+    <input type="email" name="email" required style="width:100%; margin-bottom:10px;">
+
+    <label>Tu celular:</label>
+    <input type="tel" name="celular" style="width:100%; margin-bottom:10px;" placeholder="Opcional">
+
+    <label>Mensaje:</label>
+    <textarea name="mensaje" style="width:100%; height:80px;"></textarea>
+
+    <div style="margin-top:10px; display: flex; gap: 15px;">
+      <button type="submit">Enviar</button>
+      <button type="button" onclick="cerrarModalCliente()">Cancelar</button>
+      <img src="/images/logo/logo.png" style="width: 40px; margin-left: 50px;">
+    </div>
+  </form>
+</div>
+
   <script>
   function contactarProducto(nombreProducto, marcaProducto) {
     document.getElementById('producto-nombre').value = nombreProducto;
@@ -292,6 +322,15 @@
   function cerrarModal() {
     document.getElementById('modal-contacto').style.display = 'none';
   }
+
+function abrirModalCliente() {
+  document.getElementById('modal-cliente').style.display = 'block';
+}
+
+function cerrarModalCliente() {
+  document.getElementById('modal-cliente').style.display = 'none';
+}
+
 </script>
 
 </footer>
