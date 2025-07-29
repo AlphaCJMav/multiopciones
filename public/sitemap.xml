@@ -8,15 +8,21 @@
   </url><url>
     <loc>http://localhost:1313/categorias/</loc>
   </url><url>
-    <loc>http://localhost:1313/deco/</loc>
+    <loc>http://localhost:1313/decoyhome/</loc>
+  </url><url>
+    <loc>http://localhost:1313/cuadros/</loc>
   </url><url>
     <loc>http://localhost:1313/envios/</loc>
   </url><url>
     <loc>http://localhost:1313/libros/</loc>
   </url><url>
+    <loc>http://localhost:1313/home/</loc>
+  </url><url>
     <loc>http://localhost:1313/marcas/</loc>
   </url><url>
     <loc>http://localhost:1313/modalidad-pago/</loc>
+  </url><url>
+    <loc>http://localhost:1313/muebles/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
   </url><url>

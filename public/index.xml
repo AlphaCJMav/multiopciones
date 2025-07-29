@@ -30,9 +30,16 @@
     </item>
     <item>
       <title>Deco &amp; Home</title>
-      <link>http://localhost:1313/deco/</link>
+      <link>http://localhost:1313/decoyhome/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/deco/</guid>
+      <guid>http://localhost:1313/decoyhome/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Diseño</title>
+      <link>http://localhost:1313/cuadros/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/cuadros/</guid>
       <description></description>
     </item>
     <item>
@@ -50,10 +57,24 @@
       <description></description>
     </item>
     <item>
+      <title>Home</title>
+      <link>http://localhost:1313/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/home/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Modalidad de Pago</title>
       <link>http://localhost:1313/modalidad-pago/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/modalidad-pago/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Muebles</title>
+      <link>http://localhost:1313/muebles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/muebles/</guid>
       <description></description>
     </item>
     <item>
