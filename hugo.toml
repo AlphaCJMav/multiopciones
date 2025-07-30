@@ -14,6 +14,8 @@ publishDir = "public"
   products_title = "Nuestros Productos"
   reviews_title = "Por qué Multiopciones ®"
   not_found = "No hay productos de esa categoría."
+  adsense_id = "ca-pub-1467437251743895"
+
   
   categories = [
     "Fragancias",
